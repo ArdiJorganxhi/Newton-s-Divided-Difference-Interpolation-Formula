@@ -33,10 +33,10 @@ def printimiTabeles(y, n):
 
         print("");
 
-    # Driver Code
+    
 
 
-# number of inputs given
+
 n = 8;
 y = [[0 for i in range(10)]
      for j in range(10)];
@@ -61,6 +61,6 @@ printimiTabeles(y, n);
 
 vlera = 26;
 
-# printing the value 
+
 print("\nNumber of Deaths from COVID19 at", vlera, "April", "is",
       round(aplikimiFormules(vlera, x, y, n), 2))
